@@ -1,0 +1,67 @@
+body {
+  background: #020100;
+}
+
+.zombie {
+  width: 200px;
+  height: 310px;
+  margin: 2% auto;
+  background: url('http://www.wdrfree.com/public/demos/animatespritekeyframes/walkingdead.png') left center;
+  animation: play .8s steps(10) infinite;
+  position: absolute;
+}
+
+@keyframes play {
+    100% { background-position: -2000px; }
+}
+
+h1 {
+  font-family: 'EB Garamond', serif;
+  color: #BF6D65;
+  font-size: 75px;
+  margin-bottom: -30px;
+  margin-top: -10px;
+}
+
+h2 {
+  font-family: 'Bahiana', cursive;
+  color: #590902;
+  font-size: 75px;
+  margin-top: -50px;
+  margin-bottom: -40px;
+  margin-left: 200px;
+}
+
+h3 {
+  font-family: 'Marcellus SC', serif;
+  color: #343A34;
+  font-size: 19px;
+}
+
+p {
+  color: #BDAFAE;
+  width: 400px;
+  font-family: 'Radley', serif;
+}
+
+footer {
+  color: white;
+  margin-top: 400px;
+  font-family: 'EB Garamond', serif;
+}
+
+.foot {
+  margin-top: -350px;
+}
+
+a {
+  margin-top: 10px;
+  color: white;
+  font-family: 'EB Garamond', serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
